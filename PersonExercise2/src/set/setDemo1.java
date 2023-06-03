@@ -11,14 +11,15 @@ public class setDemo1 {
         Set<String> sets = new HashSet<>();//无序 不重复 无索引
         //Set<String> sets = new LinkedHashSet<>();//有序  不重复  无索引
         //Set<String> sets = new TreeSet<>();//排序  不重复  无索引
-        sets.add("java");
-        sets.add("java");
-        sets.add("MySQL");
-        sets.add("MySQL");
-        sets.add("HTML");
-        sets.add("HTML");
         sets.add("SpringBoot");
-        sets.add("SprintBoot");
+        sets.add("SpringBoot");
+        sets.add("java");
+        sets.add("java");
+        sets.add("HTML");
+        sets.add("HTML");
+        sets.add("MySQL");
+        sets.add("MySQL");
+
         System.out.println(sets);
     }
 }
